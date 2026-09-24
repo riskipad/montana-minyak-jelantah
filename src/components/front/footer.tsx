@@ -8,21 +8,8 @@ export default function FrontFooter() {
                 <div className="container flex flex-wrap md:flex-nowrap items-start justify-between px-8 sm:px-10 md:px-12 lg:px-16 xl:px-20">
                     <div className="w-full md:w-[380px] lg:w-[433px] text-base text-white mb-8 md:mb-0">
                         <h2 className={`${fontVarien.className} text-[22px] md:text-[24px] mb-5 md:mb-6`}>Montana</h2>
-                        <p className="mb-[42px] opacity-80">UrbanLegance is a sustainable fashion brand that creates stylish, high-quality clothing for confident self-expression. Join us for modern fashion with a classic twist.</p>
-                        <a href="mailto:adnan@iniadnan.dev" className="flex items-center justify-between pb-3 border-b border-[#323232] mb-6">
-                            <span className="text-xl">EMAIL</span>
-                            <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clipPath="url(#clip0_49_1463)">
-                                    <path d="M2 8L22 8" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M18 12.5L22.5 8L18 3.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_49_1463">
-                                        <rect width="16" height="25" fill="white" transform="translate(0 16) rotate(-90)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
+                        <p className="mb-[42px] opacity-80">Mengubah limbah menjadi nilai — untuk bisnis yang lebih bertanggung jawab.</p>
+               
                         <div className="flex items-center gap-x-6">
                             <a href="/">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,33 +65,19 @@ export default function FrontFooter() {
                     </div>
                     <div className="w-full md:w-auto flex flex-wrap items-start gap-y-6 md:gap-x-[80px] lg:gap-x-[100px] xl:gap-x-[120px]">
                         <div className="w-1/2 md:w-auto text-base">
-                            <h3 className={`${fontVarien.className} text-lg md:text-xl lg:text-[24px] text-white mb-3 md:mb-4`}>Shop</h3>
+                            <h3 className={`${fontVarien.className} text-lg md:text-xl lg:text-[24px] text-white mb-3 md:mb-4`}>Sections</h3>
                             <div className="flex flex-col gap-y-2 text-white opacity-80">
-                                <Link href="/">Woman</Link>
-                                <Link href="/">Man</Link>
-                                <Link href="/">Baby</Link>
-                                <Link href="/">Childern</Link>
-                                <Link href="/">Divided</Link>
+                                <Link href="#about">About</Link>
+                                <Link href="#services">Services</Link>
+                                <Link href="#faq">FAQ</Link>
+                                <Link href="#contact">Contact</Link>
                             </div>
                         </div>
                         <div className="w-1/2 md:w-auto text-base">
-                            <h3 className={`${fontVarien.className} text-lg md:text-xl lg:text-[24px] text-white mb-3 md:mb-4`}>Help</h3>
+                            <h3 className={`${fontVarien.className} text-lg md:text-xl lg:text-[24px] text-white mb-3 md:mb-4`}>Page</h3>
                             <div className="flex flex-col gap-y-2 text-white opacity-80">
-                                <Link href="/">Contact</Link>
-                                <Link href="/">FAQ</Link>
-                                <Link href="/">Shipping & Return</Link>
+                                <Link href="/">Terms & Services</Link>
                                 <Link href="/">Privacy Policy</Link>
-                                <Link href="/">About Snaely</Link>
-                            </div>
-                        </div>
-                        <div className="w-1/2 md:w-auto text-base">
-                            <h3 className={`${fontVarien.className} text-lg md:text-xl lg:text-[24px] text-white mb-3 md:mb-4`}>About</h3>
-                            <div className="flex flex-col gap-y-2 text-white opacity-80">
-                                <Link href="/">Just Arrived</Link>
-                                <Link href="/">Customization</Link>
-                                <Link href="/">Shop by Look</Link>
-                                <Link href="/">Wedding</Link>
-                                <Link href="/">About Snaely</Link>
                             </div>
                         </div>
                     </div>
